@@ -38,7 +38,7 @@ jobs:
 
       - name: Build Application 
         run: |
-            python -m py_compile app.py
+            python -m py_compile calculator.py
 
       # Step 4: Run tests
       - name: Run Tests
